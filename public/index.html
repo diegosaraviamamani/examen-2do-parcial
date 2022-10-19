@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=optional"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <ul>
+            <li>Inicio</li>
+            <li>Sobre nosotros</li>
+            <li>Galeria</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+        <span id="user-welcome"></span>
+      </header>
+      <figure>
+        <img src="https://picsum.photos/1400/800" alt="imagen" />
+      </figure>
+      <main>
+        <section>
+          <form id="login-form">
+            <h3>Iniciar Sesión</h3>
+            <input
+              type="text"
+              id="login-user"
+              placeholder="Ingrese nombre usuario"
+            />
+            <button type="submit">INGRESAR</button>
+          </form>
+          <article>
+            <img src="https://picsum.photos/200/200" alt="imagen" />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla
+              ipsam iusto modi expedita ad minus, quas accusantium! Est optio
+              magni facilis, aliquam distinctio aperiam accusantium nisi
+              architecto enim dolores recusandae. Lorem ipsum dolor, sit amet
+              consectetur adipisicing elit. Nulla ipsam iusto modi expedita ad
+              minus, quas accusantium! Est optio magni facilis, aliquam
+              distinctio aperiam accusantium nisi architecto enim dolores
+              recusandae. Lorem ipsum dolor, sit amet consectetur adipisicing
+              elit. Nulla ipsam iusto modi expedita ad minus, quas accusantium!
+              Est optio magni facilis, aliquam distinctio aperiam accusantium
+              nisi architecto enim dolores recusandae.
+            </p>
+          </article>
+        </section>
+        <section>
+          <ul>
+            <!-- four li elemnts with text item n -->
+            <li>Item Uno</li>
+            <li>Item Dos</li>
+            <li>Item Tres</li>
+            <li>Item Cuatro</li>
+            <li>Item Cinco</li>
+            <li>Item Seis</li>
+          </ul>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae libero ipsam corporis voluptates adipisci, illum quod
+            ratione expedita. Mollitia rem voluptatibus, provident fugiat
+            corporis placeat ducimus perferendis ut consequatur voluptatem.
+          </p>
+          <form>
+            <h3>Conversor de monedas</h3>
+            <!-- dropdown selector of currencies and input value -->
+            <div>
+              <select name="currencyA" id="currencyA">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+                <option value="peso">Peso</option>
+              </select>
+              <input type="number" id="valueA" />
+            </div>
+            <div>
+              <select name="currencyB" id="currencyB">
+                <option value="dolar">Dolar</option>
+                <option value="euro">Euro</option>
+                <option value="peso">Peso</option>
+              </select>
+              <input type="number" id="valueB" />
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
