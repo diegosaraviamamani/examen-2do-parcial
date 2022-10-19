@@ -9,6 +9,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/30392291cd.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
@@ -56,14 +60,25 @@
           </article>
         </section>
         <section>
-          <ul>
-            <!-- four li elemnts with text item n -->
-            <li>Item Uno</li>
-            <li>Item Dos</li>
-            <li>Item Tres</li>
-            <li>Item Cuatro</li>
-            <li>Item Cinco</li>
-            <li>Item Seis</li>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-star"></i></span>Item 1
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-heart"></i></span>Item 2
+            </li>
+            <li>
+              <span class="fa-li"><i class="fa-solid fa-circle"></i></span>Item 3
+            </li>
+            <li>
+              <span class="fa-li"></i></span>Item 4
+            </li>
+            <li>
+              <span class="fa-li"></i></span>Item 5
+            </li>
+            <li>
+              <span class="fa-li"></i></span>Item 6
+            </li>
           </ul>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -71,26 +86,24 @@
             ratione expedita. Mollitia rem voluptatibus, provident fugiat
             corporis placeat ducimus perferendis ut consequatur voluptatem.
           </p>
-          <form>
+          <form id="currency-form">
             <h3>Conversor de monedas</h3>
-            <!-- dropdown selector of currencies and input value -->
             <div>
-              <select name="currencyA" id="currencyA">
-                <option value="dolar">Dolar</option>
-                <option value="euro">Euro</option>
-                <option value="peso">Peso</option>
+              <select name="currency" id="currencyA">
+                <option value="USD">Dolar</option>
+                <option value="EUR">Euro</option>
+                <option value="BOB">Boliviano</option>
               </select>
               <input type="number" id="valueA" />
             </div>
             <div>
-              <select name="currencyB" id="currencyB">
-                <option value="dolar">Dolar</option>
-                <option value="euro">Euro</option>
-                <option value="peso">Peso</option>
+              <select name="currency" id="currencyB">
+                <option value="USD">Dolar</option>
+                <option value="EUR">Euro</option>
+                <option value="BOB">Boliviano</option>
               </select>
               <input type="number" id="valueB" />
             </div>
-            <button type="submit">Enviar</button>
           </form>
         </section>
       </main>
