@@ -4,5 +4,5 @@ loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
   const user = loginForm["login-user"].value;
   const userWelcome = document.querySelector("#user-welcome");
-  userWelcome.innerHTML = `BIENVENID(@) ${user}`;
+  userWelcome.innerHTML = user.length ? `BIENVENID(@) ${user}` : "";
 });
