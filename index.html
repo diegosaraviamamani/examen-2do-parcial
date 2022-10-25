@@ -16,18 +16,18 @@
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Inicio</li>
+          <li>Sobre nosotros</li>
+          <li>Galeria</li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+      <span id="user-welcome"></span>
+    </header>
     <div class="container">
-      <header>
-        <nav>
-          <ul>
-            <li>Inicio</li>
-            <li>Sobre nosotros</li>
-            <li>Galeria</li>
-            <li>Contacto</li>
-          </ul>
-        </nav>
-        <span id="user-welcome"></span>
-      </header>
       <figure>
         <img src="https://picsum.photos/1400/800" alt="imagen" />
       </figure>
@@ -37,7 +37,8 @@
             <h3>Iniciar Sesión</h3>
             <input
               type="text"
-              id="login-user"
+              id="username"
+              name="username"
               placeholder="Ingrese nombre usuario"
             />
             <button type="submit">INGRESAR</button>
@@ -60,32 +61,34 @@
           </article>
         </section>
         <section>
-          <ul class="fa-ul">
-            <li>
-              <span class="fa-li"><i class="fa-solid fa-star"></i></span>Item 1
-            </li>
-            <li>
-              <span class="fa-li"><i class="fa-solid fa-heart"></i></span>Item 2
-            </li>
-            <li>
-              <span class="fa-li"><i class="fa-solid fa-circle"></i></span>Item 3
-            </li>
-            <li>
-              <span class="fa-li"></i></span>Item 4
-            </li>
-            <li>
-              <span class="fa-li"></i></span>Item 5
-            </li>
-            <li>
-              <span class="fa-li"></i></span>Item 6
-            </li>
-          </ul>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repudiandae libero ipsam corporis voluptates adipisci, illum quod
-            ratione expedita. Mollitia rem voluptatibus, provident fugiat
-            corporis placeat ducimus perferendis ut consequatur voluptatem.
-          </p>
+          <article>
+            <ul class="fa-ul">
+              <li>
+                <span class="fa-li"><i class="fa-solid fa-star"></i></span>Item 1
+              </li>
+              <li>
+                <span class="fa-li"><i class="fa-solid fa-heart"></i></span>Item 2
+              </li>
+              <li>
+                <span class="fa-li"><i class="fa-solid fa-circle"></i></span>Item 3
+              </li>
+              <li>
+                <span class="fa-li"></i></span>Item 4
+              </li>
+              <li>
+                <span class="fa-li"></i></span>Item 5
+              </li>
+              <li>
+                <span class="fa-li"></i></span>Item 6
+              </li>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Repudiandae libero ipsam corporis voluptates adipisci, illum quod
+              ratione expedita. Mollitia rem voluptatibus, provident fugiat
+              corporis placeat ducimus perferendis ut consequatur voluptatem.
+            </p>
+          </article>
           <form id="currency-form">
             <h3>Conversor de monedas</h3>
             <div>

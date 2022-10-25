@@ -2,7 +2,7 @@
 const loginForm = document.querySelector("#login-form");
 loginForm.addEventListener("submit", (e) => {
   e.preventDefault();
-  const user = loginForm["login-user"].value;
+  const user = loginForm["username"].value;
   const userWelcome = document.querySelector("#user-welcome");
   userWelcome.innerHTML = user.length ? `BIENVENID(@) ${user}` : "";
 });
